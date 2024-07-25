@@ -1,0 +1,29 @@
+.welc{
+  width: 450px;
+  border-radius: 50px;
+}
+.kenny {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: larger;
+  color: orange;
+}
+.kenny:hover{
+  cursor: grab;
+
+}
+.eric {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  color: red;
+}
+.eric:hover {
+  cursor: grab;
+}
+.vta {
+  font-style: oblique;
+  font-size: larger;
+  color: darkred;
+}
+.valitud {
+  font-weight: bold;
+}

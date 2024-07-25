@@ -1,9 +1,13 @@
+import 'react-toastify/dist/ReactToastify.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import 'leaflet/dist/leaflet.css';
 import './index.css';
 import App from './App';
+
 //import reportWebVitals from './reportWebVitals';
 import{BrowserRouter} from "react-router-dom";
+
 
 // navigeerimiseks on vajalik (routeimiseks) on  vajalik :
 //1. nmp install react-router-dom (paneme node_modules kausta 

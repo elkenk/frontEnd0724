@@ -1,6 +1,12 @@
 .App {
   text-align: center;
 }
+.App-dark{
+  text-align: center;
+  background-color:  black;
+  color: white;
+  min-height: 100vh;
+}
 
 .pilt {
   height: 100px;
@@ -22,4 +28,18 @@ color: antiquewhite;
 }
 .nupp:active{
   text-decoration: underline;
+}
+.summa-aktiivne{
+  border: 3px solid rgb(221, 84, 106);
+
+}
+.linnAktiivne {
+  text-decoration: underline;
+}
+.atviivne-keel{
+  font-weight: bold;
+}
+
+.map {
+  height: 300px;
 }
