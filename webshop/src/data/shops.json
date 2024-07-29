@@ -1,0 +1,22 @@
+[
+{
+    "id": 1,
+        "name": "Oslo",
+        "adress": "States veien 3",
+        "telephone": "+47108109"
+},
+
+{
+    "id": 2,
+        "name" : "Helsinki",
+        "adress" : "Kaupunkki tie 7",
+        "telephone" : "+358765982"
+
+},
+{
+    "id" : 3,
+        "name" : "Tallinn",
+        "adress" : "Jalaka 16",
+        "telephone" : "+372625478"
+}
+]

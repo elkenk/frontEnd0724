@@ -44,7 +44,7 @@ function TagasisideAndjad() {
         <button onClick={sortZA}>Sorteeri Z-A</button>
         <button onClick={insertEST}>Lisa iga nime ette EST</button>
         {andjad.map((element, index) =>
-        <div key={element, index}>
+        <div key={element}>
             {element} <button onClick={() => kustuta(index)}>Kustuta</button>
             </div>)}
         <label>Lisa uus nimi</label> <br/>

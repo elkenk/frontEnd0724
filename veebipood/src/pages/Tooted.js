@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import tootedJSON from "../Data/tooted.json"
+import ostukorvJSON from "../Data/ostukorv.json"
 //lisa ostukorvi lehele üks juurde
 //iga toote juurde "lisa ostukorvi" nupp
 
@@ -32,6 +33,9 @@ function Tooted() {
     toode.sort((a, b) => b.length - a.length)
     muudaToode(toode.slice())
  }
+ const lisaOstukorvi = (toode) => {
+  ostukorvJSON.push(toode)
+ }
  
  
   return (
@@ -44,6 +48,7 @@ function Tooted() {
       <button onClick={sorteeriKahanevalt}>Sorteeri kahanevalt</button>
       {toode.map(toode => <div key={toode}>
         {toode}
+        <button onClick={()=> lisaOstukorvi(toode)}>Lisa ostukorvi</button>
         </div>)}
     </div>
   )

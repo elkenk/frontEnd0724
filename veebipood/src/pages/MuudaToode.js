@@ -15,7 +15,7 @@ function MuudaToode() {
   return (
     <div>
         <div>URLs olev muutuja : {index}</div>
-        <label>Teenuse nimetus</label> <br/>
+        <label>Toote nimetus</label> <br/>
         <input type="text" ref={toodeRef} defaultValue={leitud}/>
         <button onClick={muuda}>Muuda</button>
       </div>
